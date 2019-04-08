@@ -76,4 +76,9 @@ public class Conta {
 	public Cliente getTitular() {
 		return titular;
 	}
+	
+	public static int getTotal() {
+		System.out.println(saldo);
+		return Conta.total;
+	}
 }
